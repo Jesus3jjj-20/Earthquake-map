@@ -51,8 +51,6 @@ https://leafletjs.com/examples/quick-start/example.html
     let map = L.map('mapid').setView([36.7305, -6.5356], 6).addLayer(osmLayer);
 
 
-    // pending  From JSON to array 
-    // [Lat, Lon] Leaflet
     fetch("Map.php")
                 .then(response => {
                     return response.json();
